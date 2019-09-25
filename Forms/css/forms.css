@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: orange;
+}
+
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p, [for="abtype"], [for="comments"] {
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+fieldset {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	display: block;
+}
+label {
+	display: block;
+	padding-bottom: 0.3rem;
+}
+textarea {
+	height: 10rem;
+	padding: 1rem;
+}
+select {
+	font-size: 1rem;
+	border-radius: 10px;
+	border: none;
+}
+#abtype {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+button {
+	font-size: 1.5rem;
+	background-color: #A33220;
+	color: white; 
+	margin: 1rem 0;
+	border: none;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+}
+button:hover{
+	background-color: lightblue;
+	color: black;
+	
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea { 
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+	border-radius: 10px;
+	border: none;
+}
+
+
+
+
+
+
