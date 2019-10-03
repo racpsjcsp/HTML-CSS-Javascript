@@ -4,23 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
   <title>Document</title>
   <head>
     <title>Dogs</title>
   </head>
-  
   <body>
-    
-      <h1>Doggos</h1>
-      <select class="breeds"></select>
-      <button class="roll">roll</button>
-      <div class="doggos">
-        <img src="http://placecorgi.com/260/180" alt="doggo" class="dog-img">
+    <div class="topdiv">
+      <h1>Dog Images</h1>
+    </div>
+
+      <div class="breed-roll-container">
+          <select class="breeds"></select>
+          <button class="roll">Roll</button>
       </div>
-
       
-
-  
+      <div class="doggos">
+        <div class="doggos-container">
+          <img src="http://placecorgi.com/260/180" alt="doggo" class="dog-img show">
+          <div class="spinner">
+              🐶 
+          </div>
+        </div>
+      </div>
+       
    <script src="dogs.js"></script>
 </body>
 </html>
