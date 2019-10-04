@@ -26,13 +26,12 @@ h1 {
 }
 
 .doggos {
-  width: 90%;
+  width: 80%;
   text-align: center;
   margin: 1rem auto;
 }
 
 .doggos-container {
-  
   text-align: center;
 }
 
@@ -42,7 +41,7 @@ h1 {
   align-items: center;
   padding: 1rem;
   text-align: center;
-  width: 30%;
+  width: 100%;
   margin: .5rem left;
 }
 
@@ -121,7 +120,7 @@ select option {
 }
 
 .spinner {
-  font-size: 130px;
+  font-size: 80px;
   text-align: center;
   animation: 2s spin linear infinite;
   display: none;
@@ -129,8 +128,8 @@ select option {
 
 .dog-img {
   display: none;
-  text-align: center;
-  
+  text-align: center; 
+  margin: auto; 
 }
 
 .show {
